@@ -23,7 +23,7 @@
 }
 
 
-@media(max-width:768px){
+/* @media(max-width:768px){ */
     .harmburger {
         display: flex;
         flex-direction: column;
@@ -43,12 +43,12 @@
     .harmburger.active .bar:nth-child(3) {
         transform:translateY(-10px)rotate(-49deg);
     }
-
+/***********Mobile Popup************************/
     .mobile_nav_menu {
         list-style-type: none;
         visibility: hidden;
         width: 100%;
-        height: 80vh;
+        height: 58vh;
         background: #d3d3d3;
         display: flex;
         flex-direction: column;
@@ -58,7 +58,9 @@
     }
 
     .mobile_nav_item {
-        padding: 18px 25px ;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 8px;
     }
 
 
@@ -66,10 +68,20 @@
     text-decoration: none;
     color: #272a31;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    border-bottom: 3px solid #ec5242;
-    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 590;
+
 }
+
+
+.link_hr {
+    width: 85%;
+    margin-left: 15px;
+    border-color: #ec5242;
+
+}
+
+
 
 .mb_link:hover {
     color: #292737;
@@ -148,6 +160,7 @@ width: 15%;
 margin: 0 auto;
 margin-top: 15px;
 }
+
 .main_hr {
 border: none;
 }
@@ -282,6 +295,56 @@ border-width: 2px;
 border: none;
 }
 
+/********Partners Section*********************/
+#partners_section {
+    background: #272a31;
+    padding: 20px 15px 50px;
+}
+
+.partners_title {
+    text-align: center;
+}
+
+.partners_title h1 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.partners_hr_con {
+margin-bottom: 50px;
+}
+
+.partners_hr {
+border-color: #ec5242;
+width: 15%;
+margin: 0 auto;
+border-width: 1px;
+}
+
+.partners_flex_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners_item  {
+    margin-right: 30px;
+}
+
+/*********Footer Section*********************/
+#footer {
+padding: 80px 15px 40px;
+} 
+
+.footer_flex_con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_img {
+    margin-right: 40px;
 }
 
 
