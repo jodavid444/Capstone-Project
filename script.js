@@ -33,7 +33,7 @@ const speakers = {
     },
     six: {
         image: 'images/Kehl.6d83b400.png',
-        title: 'Griffin Solot-Kehl',
+        title: 'Griffin Kehl',
         decription: 'Developer Advocate',
         descriptioninfo: 'React has made development intuitive for developers of all skill levels with UI kits. This way, different products can develop a plug and play solution that abstracts away the complicated parts of their SDKs, to improve developers.',
     }
@@ -49,7 +49,7 @@ const main = document.createElement('div');
 body.appendChild(main);
 main.innerHTML = ` 
 <div class="feature_title">
-<h1>Feature Lorem</h1>
+<h1>Feature Speakers</h1>
 </div>
 <div class="feature_hr_con">
 <hr class="feature_hr">
