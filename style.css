@@ -52,7 +52,9 @@ body {
     .harmburger.active .bar:nth-child(3) {
         transform:translateY(-10px)rotate(-49deg);
     }
+    
 /***********Mobile Popup************************/
+
     .mobile_nav_menu {
         list-style-type: none;
         visibility: hidden;
@@ -70,7 +72,7 @@ body {
     padding-left: 20px;
     padding-top: 30px;
     padding-bottom: 8px;
-    }
+}
 
 
 .mb_link  {
@@ -79,15 +81,12 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-weight: 590;
-
 }
-
 
 .link_hr {
     width: 85%;
     margin-left: 15px;
     border-color: #ec5242;
-
 }
 
 
@@ -99,7 +98,9 @@ body {
 .mobile_nav_menu.active {
     visibility: visible; 
 }
-/***********Hero Section********************/
+
+/***********Mobile Hero Section********************/
+
 .hero_container {
     padding: 110px 20px 60px;
     background-image: url('images/desktopbg.jpg');
@@ -150,7 +151,8 @@ body {
     font-style: normal;
 }
 
-/********Main Section********************/
+/********Main Mobile Section********************/
+
 #main_section {
     background: #272a31;
     padding:15px 15px 50px ;
@@ -229,10 +231,11 @@ border: none;
     border-radius: 3px;
     color: #d3d3d3;
 }
-/**********Feature Section*********************/
+/**********Mobile Feature Section*********************/
+
 #feature_section {
     padding: 30px 20px 50px;
-    background: #fff;
+    background: #d3d3d3;
 }
 
 .feature_title {
@@ -306,7 +309,8 @@ border-width: 2px;
 border: none;
 } 
 
-/********Partners Section*********************/
+/********Mobile Partners Section*********************/
+
 #partners_section {
     background: #272a31;
     padding: 20px 15px 50px;
@@ -320,6 +324,7 @@ border: none;
     color: #fff;
     font-weight: 400;
     margin-bottom: 10px;
+    font-size: 18px;
 }
 
 .partners_hr_con {
@@ -333,30 +338,70 @@ margin: 0 auto;
 border-width: 1px;
 }
 
+#partners_section {
+    background: #272a31;
+    padding: 20px 15px 50px;
+}
+
+.partners_title {
+    text-align: center;
+}
+
+.partners_title h1 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.partners_hr_con {
+margin-bottom: 50px;
+}
+
+.partners_hr {
+border-color: #ec5242;
+width: 5%;
+margin: 0 auto;
+border-width: 1px;
+}
+
 .partners_flex_container {
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+.v_img {
+    width: 80px;
 }
 
 .partners_item  {
-    margin-right: 30px;
+    margin-right: 15px;
 }
 
-/*********Footer Section*********************/
+/*********Mobile Footer Section*********************/
+
 #footer {
-padding: 80px 15px 40px;
-} 
+    padding: 20px 15px 20px;
 
-.footer_flex_con {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    } 
+    
+    .footer_flex_con {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .footer_img {
+        margin-right: 40px;
+        width: 35%;
+    }
 
-.footer_img {
-    margin-right: 40px;
-}
+    .footer_text {
+        font-size: 15px;
+        font-weight: 600;
+    }
 
 
 
@@ -364,6 +409,8 @@ padding: 80px 15px 40px;
 /**********Desktop View**********************/
 
 @media(min-width:768px) {
+
+/*********Desktop Nav-Bar**********************/
 
 .mobile_nav_bar {
     display: none;
@@ -445,7 +492,9 @@ padding: 80px 15px 40px;
 .nav_text2:nth-child(5) {
 margin-right: 50px;
 }
-/**********Hero Section**************************/
+
+/**********Desktop Hero Section**************************/
+
 .hero_container {
     padding: 100px 20px 70px;
     background-image: url('images/desktopbg.jpg');
@@ -504,7 +553,8 @@ margin-right: 50px;
     font-size: 17px;
 }
 
-/*********Main Section*********************/
+/*********Desktop Main Section*********************/
+
 .desktop_sub_title_con {
     display: flex;
     justify-content: center;
@@ -609,7 +659,8 @@ border: none;
     border-radius: 3px;
     color: #d3d3d3;
 }
-/****Feature Section******************/
+
+/****Desktop Feature Section******************/
 
 #feature_section {
     padding: 30px 20px 50px;
@@ -707,8 +758,8 @@ border-width: 2px;
 border: none;
 }
 
+/********Desktop Partners Section*********************/
 
-/********Partners Section*********************/
 #partners_section {
     background: #272a31;
     padding: 20px 15px 50px;
@@ -746,10 +797,11 @@ border-width: 1px;
     width: 70%;
 }
 
-
 .partners_item  {
     margin-left: 70px;
 }
+
+/***********Desktop Footer Section*******************/
 
 #footer {
     padding: 20px 15px 20px;
@@ -766,7 +818,7 @@ border-width: 1px;
         margin-right: 40px;
         width: 25%;
     }
-    
+
     .footer_text {
         font-size: 20px;
         font-weight: 600;
