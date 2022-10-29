@@ -324,7 +324,6 @@
 
 .footer_text_one {
   font-size: 14px;
-  font-weight: 600;
   margin-top: 30px;
   font-weight: 100;
 }
@@ -396,16 +395,6 @@
   .logo_img {
     width: 20%;
     padding-right: 6px;
-  }
-
-  .react_text {
-    text-decoration: none;
-    padding-top: 40px;
-    display: flex;
-    align-items: center;
-    font-weight: bold;
-    font-size: 19px;
-    color: #292737;
   }
 
   .nav_text_content2 {
@@ -644,7 +633,6 @@
 
   .footer_text {
     font-size: 18px;
-    font-weight: 600;
     margin-top: 30px;
     font-weight: 100;
   }
