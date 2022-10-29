@@ -25,8 +25,11 @@ ESlint
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://jodavid444.github.io/Capstone-Project/)
 
+## Live Video Presentation
+
+(https://www.loom.com/share/a0f3f3fdc0334fa8a134919c742bdcca)
 
 ## Getting Starte
 
