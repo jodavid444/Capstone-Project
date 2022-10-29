@@ -1,56 +1,63 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Geekle React Global Online Summits website.
 
-> Description the project.
+> This is my first capstone project at microvesre after rounding up the portal section, The greekle online global summits website is a virtual event where speakers who are leading expert from all over the world share ideas on how to solve challanges from work using react, geekle has the unique experience to gather huge tech summits with 10'000+ attendees in different tech domains.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
+- Languages 
+
+HTML
+CSS
+JavaScript
+
+- Frameworks(NONE)
+
 - Technologies used
+
+Github
+Git
+WebHint
+Stylelint
+ESlint
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://jodavid444.github.io/Capstone-Project/)
 
+## Live Video Presentation
 
-## Getting Started
+(https://www.loom.com/share/a0f3f3fdc0334fa8a134919c742bdcca)
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+## Getting Starte
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+A Web Browser (preferably Google Chrome)
+
 ### Setup
 
-### Install
+Clone the GitHub Repository
 
 ### Usage
 
-### Run tests
-
-### Deployment
-
+Open index.html in Chrome to view the website
 
 
 ## Authors
 
-👤 **Author1**
+👤 Joseph David
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+GitHub:(https://github.com/jodavid444)
 
-👤 **Author2**
+Twitter:(https://twitter.com/jodavid444)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+LinkedIn:(https://linkedin.com/jodavid444)
+
 
 ## 🤝 Contributing
 
@@ -64,9 +71,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Original design idea by Cindy Shin in Behance, in association with the Creative Commons license of the design.
 
 ## 📝 License
 
