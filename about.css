@@ -6,12 +6,6 @@
   color: #292737;
 }
 
-.harmburger {
-  cursor: pointer;
-  display: none;
-  position: fixed;
-}
-
 .bar {
   display: flex;
   width: 35px;
@@ -34,6 +28,7 @@
   padding: 20px 25px;
   z-index: 100;
   position: fixed;
+  cursor: pointer;
 }
 
 .harmburger.active .bar:nth-child(2) {
@@ -174,10 +169,9 @@
 .about_hr {
   width: 15%;
   margin: 0 auto;
-  border-color:#ec5242;
+  border-color: #ec5242;
   border-bottom: none;
   border-width: 1px;
-  border-bottom: none;
 }
 
 .about_sub_container p {
@@ -258,205 +252,171 @@
 
 .mobile_video,
 .desktop_video {
-  display: none; 
+  display: none;
 }
 
+/********  Mobile Partners Section  *********************/
 
-    /********  Mobile Partners Section  *********************/
+#partners_section {
+  background: #272a31;
+  padding: 20px 15px 50px;
+}
 
-    #partners_section {
-      background: #272a31;
-      padding: 20px 15px 50px;
-      }
-  
-      .partners_title {
-      text-align: center;
-      }
-  
-      .partners_title h1 {
-      color: #fff;
-      font-weight: 400;
-      margin-bottom: 10px;
-      font-size: 18px;
-      }
-  
-      .partners_hr_con {
-      margin-bottom: 50px;
-      }
-  
-      .partners_hr {
-      border-color: #ec5242;
-      width: 15%;
-      margin: 0 auto;
-      border-width: 1px;
-      }
-  
-      #partners_section {
-      background: #272a31;
-      padding: 20px 15px 50px;
-      }
-  
-      .partners_title {
-      text-align: center;
-      }
-  
-      .partners_title h1 {
-      color: #fff;
-      font-weight: 400;
-      margin-bottom: 10px;
-      font-size: 40px;
-      }
-  
-      .partners_hr_con {
-      margin-bottom: 50px;
-      }
-  
-      .partners_hr {
-      border-color: #ec5242;
-      width: 5%;
-      margin: 0 auto;
-      border-width: 1px;
-      }
-  
-      .partners_flex_container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      }
-  
-      .v_img {
-      width: 80px;
-      }
-  
-      .partners_item {
-      margin-right: 15px;
-      }
+.partners_title {
+  text-align: center;
+}
 
-    /*********  Mobile Footer Section  *********************/
+.partners_hr_con {
+  margin-bottom: 50px;
+}
 
-    #footer {
-      padding: 20px 15px 20px;
-      }
-  
-      .footer_flex_con {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      }
-  
-      .footer_img {
-      margin-right: 40px;
-      width: 35%;
-      }
-  
-      .footer_text {
-      font-size: 15px;
-      font-weight: 600;
-      }
-  
-  
-  
+.partners_title h1 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.partners_hr {
+  border-color: #ec5242;
+  width: 5%;
+  margin: 0 auto;
+  border-width: 1px;
+}
+
+.partners_flex_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.v_img {
+  width: 80px;
+}
+
+.partners_item {
+  margin-right: 15px;
+}
+
+/*********  Mobile Footer Section  *********************/
+
+#footer {
+  padding: 20px 15px 20px;
+}
+
+.footer_flex_con {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer_img {
+  margin-right: 40px;
+  width: 35%;
+}
+
+.footer_text {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/************  Desktop View  ***********************/
 
 @media (min-width: 768px) {
-
   .mobile_nav_bar {
     display: none;
-    }
+  }
 
-    .primary_nav {
+  .primary_nav {
     display: flex;
     justify-content: end;
     background: #272a31;
     color: white;
     height: 40px;
     align-items: center;
-    }
+  }
 
-    .nav_text_content {
+  .nav_text_content {
     margin-right: 190px;
     display: flex;
     list-style: none;
-    }
+  }
 
-    .nav_text a {
+  .nav_text a {
     text-decoration: none;
     color: #fff;
     font-size: 14px;
-    }
+  }
 
-    .nav_text {
+  .nav_text {
     margin-right: 20px;
-    }
+  }
 
-    .nav_img {
+  .nav_img {
     margin-right: 15px;
     cursor: pointer;
-    }
+  }
 
-    .secondary_nav {
+  .secondary_nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    }
+  }
 
-    .logo {
-      margin-left: 150px;
-      margin-bottom: 30px;
-      }
-  
-      .logo_img {
-      width: 20%;
-      padding-right: 6px;
-      }
-  
-      .react_text {
-          text-decoration: none;
-          padding-top: 40px;
-          display: flex;
-          align-items: center;
-          font-weight: bold;
-          font-size: 19px;
-          color: #292737;
-      }
-  
+  .logo {
+    margin-left: 150px;
+    margin-bottom: 30px;
+  }
 
-    .nav_text_content2 {
+  .logo_img {
+    width: 20%;
+    padding-right: 6px;
+  }
+
+  .react_text {
+    text-decoration: none;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 19px;
+    color: #292737;
+  }
+
+  .nav_text_content2 {
     display: flex;
     list-style-type: none;
     margin-right: 160px;
-    }
+  }
 
-    .linkone {
+  .linkone {
     color: #ec5242;
     transition: 0.3s ease-in;
-    }
+  }
 
-    .linkone:hover {
+  .linkone:hover {
     color: #272a31;
-    }
+  }
 
-    .nav_text2 {
+  .nav_text2 {
     margin-right: 70px;
     font-size: 16px;
     font-weight: 750;
-    }
-
-    .nav_text2 a {
-    text-decoration: none;
-    }
-
-    .nav_text2 a:hover {
-    color: #ec5242;
-    }
-
-    .nav_text2:nth-child(5) {
-    margin-right: 50px;
-    }
-
-  .mobile_nav_bar {
-    display: none;
   }
 
+  .nav_text2 a {
+    text-decoration: none;
+  }
+
+  .nav_text2 a:hover {
+    color: #ec5242;
+  }
+
+  .nav_text2:nth-child(5) {
+    margin-right: 50px;
+  }
+
+  /********  Desktop Hero Section  **********************/
   .hero_container {
     padding: 90px 20px 80px;
     background-image: url('images/desktopbg.jpg');
@@ -494,7 +454,6 @@
     text-align: center;
     background: #fff;
     margin: 0 auto;
-    padding: 20px;
     border-radius: 4px;
   }
 
@@ -519,19 +478,11 @@
     font-size: 0.9rem;
   }
 
+  /*******  Desktop About Section  ****************/
+
   .about_sub_content {
     padding: 50px 15px 40px;
   }
-
-  .about_sub_item {
-    border-radius: 7px;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
-    width: 50%;
-    margin: 0 auto;
-  }
-
 
   .about_title h1 {
     text-align: center;
@@ -561,14 +512,10 @@
     margin: 0 auto;
   }
 
-  .about_sub_content {
-    padding: 50px 15px 40px;
-  }
-
   .about_sub_item {
     border-radius: 7px;
     background-color: #d3d3d3;
-    padding: 0 0 0 0 ;
+    padding: 0 0 0 0;
     box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
   }
 
@@ -579,17 +526,6 @@
     text-align: center;
     font-style: oblique;
     padding-bottom: 11px;
-    color: #292737;
-  }
-
-  .about_title h1 {
-    text-align: center;
-    width: 80%;
-    margin: 0 auto;
-    font-weight: 800;
-    padding-bottom: 16px;
-    font-size: 40px;
-    font-style: oblique;
     color: #292737;
   }
 
@@ -613,82 +549,78 @@
     padding-bottom: 50px;
   }
 
-
-
   /********  Desktop Partners Section  *********************/
 
   #partners_section {
     background: #272a31;
     padding: 20px 15px 50px;
-    }
+  }
 
-    .partners_title {
+  .partners_title {
     text-align: center;
-    }
+  }
 
-    .partners_title h1 {
+  .partners_title h1 {
     color: #fff;
     font-weight: 400;
     margin-bottom: 10px;
     font-size: 40px;
-    }
+  }
 
-    .partners_hr_con {
+  .partners_hr_con {
     margin-bottom: 50px;
-    }
+  }
 
-    .partners_hr {
+  .partners_hr {
     border-color: #ec5242;
     width: 5%;
     margin: 0 auto;
     border-width: 1px;
-    }
+  }
 
-    .partners_flex_container {
+  .partners_flex_container {
     display: flex;
     justify-content: center;
     align-items: center;
-    }
+  }
 
-    .v_img {
+  .v_img {
     width: 70%;
-    }
+  }
 
-    .partners_item {
+  .partners_item {
     margin-left: 70px;
-    }
+  }
 
-    .desktop_video_view,
-    .mobile_video_view {
-      display: none;
-    }
+  .desktop_video_view,
+  .mobile_video_view {
+    display: none;
+  }
 
-.mobile_video,
-.desktop_video {
-      display: flex;
-    }
+  .mobile_video,
+  .desktop_video {
+    display: flex;
+  }
 
-    /***********  Desktop Footer Section  *******************/
+  /***********  Desktop Footer Section  *******************/
 
-    #footer {
+  #footer {
     padding: 20px 15px 20px;
-    }
+  }
 
-    .footer_flex_con {
+  .footer_flex_con {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    }
+  }
 
-    .footer_img {
+  .footer_img {
     margin-right: 40px;
     width: 25%;
-    }
+  }
 
-    .footer_text {
+  .footer_text {
     font-size: 20px;
     font-weight: 600;
-    }
-    }
-
-
+  }
+}
