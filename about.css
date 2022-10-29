@@ -98,6 +98,8 @@
   font-weight: normal;
   color: #ec5242;
   text-align: center;
+  width: 400px;
+  margin: 0 auto;
 }
 
 .hero_sub_title h2 {
@@ -157,9 +159,10 @@
   text-align: center;
   width: 80%;
   margin: 0 auto;
-  font-weight: 500;
+  font-weight: 600;
   padding-bottom: 16px;
-  font-size: 10px;
+  font-size: 20px;
+  font-style: oblique;
 }
 
 .about_main_content_hr {
@@ -180,16 +183,17 @@
   line-height: 1.5;
   width: 90%;
   font-weight: 300;
+  margin: 0 auto;
 }
 
 .about_sub_content {
   padding: 50px 15px 40px;
 }
 
-.about_sub_item {
+.about_logo_img {
   border-radius: 7px;
   background-color: #d3d3d3;
-  padding: 20px;
+  padding: 30px 50px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
 }
 
@@ -198,11 +202,12 @@
   font-weight: 500;
   text-align: center;
   margin: 0 auto;
+  padding: 10px 10px;
 }
 
 .about_sub_hr {
   margin-top: 70px;
-  border-top: none;
+  border: none;
 }
 
 .about_sub_header h2 {
@@ -248,6 +253,7 @@
 
 .past_item:nth-child(3) {
   padding-bottom: 50px;
+  margin: 0 auto;
 }
 
 .mobile_video,
@@ -308,16 +314,35 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding-bottom: 10px;
 }
 
 .footer_img {
-  margin-right: 40px;
-  width: 35%;
+  margin-right: 1px;
+  width: 20%;
+}
+
+.footer_text_one {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 30px;
+  font-weight: 100;
+}
+
+.react_text {
+  text-decoration: none;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 15px;
+  color: #292737;
 }
 
 .footer_text {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 100;
+  margin-top: 35px;
 }
 
 /************  Desktop View  ***********************/
@@ -429,13 +454,13 @@
   }
 
   .hero_sub_title h2 {
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     font-weight: bolder;
     padding-bottom: 20px;
     color: #ec5242;
     text-align: center;
     line-height: 1.2;
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
   }
 
@@ -490,6 +515,8 @@
     margin: 0 auto;
     font-weight: 200;
     padding-bottom: 16px;
+    font-size: 30px;
+    font-style: oblique;
   }
 
   .about_main_content_hr {
@@ -512,13 +539,6 @@
     margin: 0 auto;
   }
 
-  .about_sub_item {
-    border-radius: 7px;
-    background-color: #d3d3d3;
-    padding: 0 0 0 0;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
-  }
-
   .about_sub_header h2 {
     font-weight: 600;
     font-size: 30px;
@@ -530,7 +550,10 @@
   }
 
   .about_logo_img {
-    width: 40%;
+    border-radius: 7px;
+    background-color: #d3d3d3;
+    padding: 50px 100px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
   }
 
   .about_past_container {
@@ -615,12 +638,24 @@
   }
 
   .footer_img {
-    margin-right: 40px;
-    width: 25%;
+    margin-right: 1px;
+    width: 17%;
   }
 
   .footer_text {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
+    margin-top: 30px;
+    font-weight: 100;
+  }
+
+  .react_text {
+    text-decoration: none;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 17px;
+    color: #292737;
   }
 }

@@ -352,12 +352,30 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding-bottom: 10px;
 }
 
-.footer_img {
-  margin-right: 40px;
-  width: 35%;
-}
+  .footer_img {
+    margin-right: 1px;
+    width: 20%;
+  }
+
+  .footer_text_one {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 30px;
+    font-weight: 100;
+  }
+
+  .react_text {
+    text-decoration: none;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #292737;
+  }
 
 .footer_text {
   font-size: 15px;
@@ -777,8 +795,15 @@ body {
   }
 
   .footer_img {
-    margin-right: 40px;
-    width: 25%;
+    margin-right: 1px;
+    width: 17%;
+  }
+
+  .footer_text_one {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+    font-weight: 100;
   }
 
   .footer_text {
